@@ -45,7 +45,7 @@ func main() {
 			log.Panic("Unable to open output file ", *outfile, ": ", err)
 		}
 		defer fi.Close()
-		in = fi
+		out = fi
 	}
 
 	var err error
